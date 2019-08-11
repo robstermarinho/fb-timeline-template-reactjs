@@ -1,5 +1,13 @@
-# Babel and WebPack
+# Init React Projet
+
+### Babel and WebPack
 
 ```
 yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli -D
+```
+
+### React and Reac DOM
+
+```
+yarn add react react-dom
 ```
