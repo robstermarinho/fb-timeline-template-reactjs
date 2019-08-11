@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9ebee;
+}
+
+header {
+  background-color: #4267b2;
+  border-bottom: 1px solid #29487d;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 42px;
+  padding: 0 42px;
+  color: #fff;
+  min-width: 980px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+nav img {
+  height: 24px;
+}
+
+nav > span {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+nav > div i {
+  margin-left: 15px;
+}
+.face_logo {
+  background-image: url("./assets/face_icons.png");
+  background-repeat: no-repeat;
+  background-size: 284px 408px;
+  background-position: -156px -308px;
+  display: block;
+  height: 24px;
+  outline: none;
+  overflow: hidden;
+  text-indent: -999px;
+  white-space: nowrap;
+  width: 24px;
+  right: 0;
+}
+.face_search {
+  background-color: #fff;
+  border: 1px solid #3b5998;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 26px;
+  left: -20px;
+  margin-left: 30px;
+  margin-top: 0;
+  max-width: 448px;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 188px;
+  position: relative;
+
+  width: auto;
+}
+.avatar {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  box-sizing: border-box;
+  content: "";
+  height: 24px;
+  margin-right: 8px;
+  top: 2px;
+  width: 24px;
+}
+.face_people {
+  background-image: url("./assets/face_icons.png");
+  background-repeat: no-repeat;
+  background-size: 284px 408px;
+  background-position: -78px -360px;
+  height: 24px;
+  width: 24px;
+  margin: 0 5px;
+}
+.face_msg {
+  background-image: url("./assets/face_icons.png");
+  background-repeat: no-repeat;
+  background-size: 284px 408px;
+  background-position: -130px -360px;
+  height: 24px;
+  width: 24px;
+  margin: 0 5px;
+}
+.face_bell {
+  background-image: url("./assets/face_icons.png");
+  background-repeat: no-repeat;
+  background-size: 284px 408px;
+  background-position: 0 -360px;
+  margin: 0 2px;
+  padding: 12px;
+  margin: 0 5px;
+  display: block;
+}
+.name {
+  margin-right: 25px;
+}
+.avatar {
+  min-height: 32px;
+  min-width: 32px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
