@@ -1,13 +1,21 @@
-# Init React Projet
+# Simple React JS app
 
-### Babel and WebPack
+This is a simple React JS app just to render a static template of a facebook timline.
+
+![Template](src/assets/print.PNG)
+
+### Run the app
+
+##### 1) Install dependencies
 
 ```
-yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli -D
+yarn
 ```
 
-### React and Reac DOM
+##### 2) Run the server
 
 ```
-yarn add react react-dom
+yarn dev
 ```
+
+##### 3) Open the url `http://localhost:8080/`
